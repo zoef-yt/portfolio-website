@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=PT+Serif:ital,wght@0,400;1,700&display=swap");
+
+:root {
+	--primary-color: #ec4899;
+	--grey-color: grey;
+	--off-white: #fce8f2;
+}
+body {
+	font-family: "Oswald", sans-serif;
+	font-family: "PT Serif", serif;
+	margin: 0;
+}
+hr {
+	margin: 3rem 0;
+}
+
+/* container */
+.container {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.container-center {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+/* links */
+.link {
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+}
+.link-primary {
+	background-color: var(--primary-color);
+	border-radius: 0.5rem;
+	color: white;
+}
+.link-secondary {
+	color: var(--primary-color);
+	border: solid 0.1rem var(--primary-color);
+	border-radius: 0.5rem;
+}
+
+/* list */
+.list-non-bullet {
+	list-style-type: none;
+}
+
+.list-item-inline {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+/* navigation */
+.navigation {
+	background-color: var(--primary-color);
+	color: white;
+	border-bottom-left-radius: 2rem;
+	padding: 0.5rem 1rem;
+}
+.nav-brand {
+	font-weight: bold;
+	font-size: 2rem;
+}
+.nav-pills {
+	text-align: right;
+}
+.navigation .link {
+	color: white;
+}
+
+.link-active {
+	font-weight: bold;
+}
+
+/* header */
+
+.hero {
+	padding: 2rem;
+}
+.hero-image {
+	max-width: 350px;
+	display: block;
+	margin: 0 auto;
+}
+.hero-heading {
+	color: var(--grey-color);
+}
+.hero-heading-span {
+	color: var(--primary-color);
+}
+
+/* sections */
+.section {
+	padding: 2rem;
+}
+.section h1 {
+	text-align: center;
+}
+.section-offWhite {
+	background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer {
+	background-color: var(--primary-color);
+	color: white;
+	margin: 0;
+	padding: 2rem;
+	border-top-right-radius: 2rem;
+	text-align: center;
+	border-top: solid 0.1rem var(--grey-color);
+}
+.footer .link {
+	color: white;
+}
+.footer ul {
+	padding-inline-start: 0;
+}

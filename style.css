@@ -55,6 +55,7 @@ hr {
 	background-color: var(--primary-color);
 	color: white;
 	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
 	padding: 0.5rem 1rem;
 }
 .nav-brand {
@@ -78,12 +79,13 @@ hr {
 	padding: 2rem;
 }
 .hero-image {
-	max-width: 350px;
+	max-width: 70%;
 	display: block;
 	margin: 0 auto;
 }
 .hero-heading {
 	color: var(--grey-color);
+	text-align: center;
 }
 .hero-heading-span {
 	color: var(--primary-color);
@@ -92,12 +94,19 @@ hr {
 /* sections */
 .section {
 	padding: 2rem;
+	margin: 2rem auto;
+	border-radius: 1rem;
+	text-align: center;
+	max-width: 80%;
 }
 .section h1 {
 	text-align: center;
 }
 .section-offWhite {
 	background-color: var(--off-white);
+}
+.section p {
+	color: var(--grey-color);
 }
 
 /* footer */
@@ -107,13 +116,19 @@ hr {
 	color: white;
 	margin: 0;
 	padding: 2rem;
+	border-top-left-radius: 2rem;
 	border-top-right-radius: 2rem;
 	text-align: center;
-	border-top: solid 0.1rem var(--grey-color);
+	border-top: solid 0.1rem var(--off-white);
 }
 .footer .link {
 	color: white;
 }
 .footer ul {
 	padding-inline-start: 0;
+}
+.footer-heading {
+	color: var(--off-white);
+	font-size: 1.5rem;
+	font-weight: bold;
 }

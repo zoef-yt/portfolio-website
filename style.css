@@ -17,9 +17,29 @@ hr {
 
 /* container */
 .container {
-	padding-left: 1rem;
-	padding-right: 1rem;
+	text-align: left;
+	max-width: 80%;
+	margin: 5rem auto;
+	padding: 2rem 6vw;
+	margin-bottom: 0;
+	border-radius: 0.5rem;
+	background-color: var(--off-white);
 }
+.blog a {
+	color: var(--primary-color);
+	text-decoration: none;
+	font-weight: bold;
+}
+.blog-p {
+	line-height: 1.5;
+	margin: 0 1.5rem;
+}
+.blog-h1 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
 .container-center {
 	max-width: 600px;
 	margin: 0 auto;
